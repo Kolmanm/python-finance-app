@@ -21,18 +21,19 @@ Tato aplikace umožňuje uživatelům sledovat své finanční transakce pomocí
 1. **Klonuj repozitář:**
 
 ```bash
-git clone https://github.com/tvoje-repo/python-finance-app.git
+git clone https://github.com/Kolmanm/python-finance-app
 cd python-finance-app
 ```
 
 2. **Vytvoř `.env` soubor:**
 
 ```env
-DB_HOST=localhost
+DB_HOST=dbs.spskladno.cz
 DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=heslo
-DB_NAME=personal_finance
+DB_USER=student20
+DB_PASSWORD=spsnet
+DB_NAME=vyuka20
+
 ```
 
 3. **Nainstaluj závislosti:**
